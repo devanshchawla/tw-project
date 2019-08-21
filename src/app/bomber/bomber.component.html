@@ -1,0 +1,11 @@
+<div class="test"><p *ngIf="timerOn" class="timer-container">
+    TIME REMAINING: {{ timer }}
+</p></div>
+
+<div class=""><button type="button " class="btn btn-danger center-text" id="get-n-button" (click)="showDiffuser()">Get Diffuser</button></div>
+<div class="padding-20"><button type="button" class="btn btn-warning  center-text" *ngIf="getDiffuser" (click)="diffuseBomb()">Diffuse Now!</button></div>
+
+<div class="padding-20"><button type="button" class="btn btn-success center-text" *ngIf="diffused">Bomb Diffused :)</button></div>
+<div class="padding-20"><button type="button" class="btn btn-dark center-text" *ngIf="exploded">Bomb Exploded :(</button></div>
+
+<div class="padding-40"><button type="button" class="btn btn-light center-text" *ngIf="diffused || exploded" (click)="restart()">Try Again</button></div>

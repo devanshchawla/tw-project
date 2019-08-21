@@ -1,0 +1,27 @@
+div{
+    text-align: center;
+}
+h1{
+    padding-top: 10vh;
+    padding-bottom: 20px;
+    animation-name: example;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.border{
+    border-style: solid;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    top: 10vh;
+    height: 80vh;
+    
+}
+.bg-red{
+    background-color: lightcoral;
+}
+.bg-green{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,33 @@
+.btn{
+    display: block !important;
+    margin-top: 20px;
+}
+.test{
+    height: 100px;
+}
+.center-text{
+    display: block;
+    margin: auto;
+}
+.padding-20{
+    padding-top: 20px;
+}
+.padding-40{
+    padding-top: 40px;
+}
+.btn-success{
+    cursor: auto;
+}
+@keyframes pulse{
+    from{ font-size: 16px; }
+    to{ font-size: 24px; }
+}
+.timer-container{
+    padding: 5px;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: 'Nunito', sans-serif;
+
+}

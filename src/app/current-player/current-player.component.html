@@ -1,0 +1,6 @@
+<div [className]="terrorsistActive ? 'bg-red border' : 'bg-green border' "><h1 *ngIf="terrorsistActive" class=" animate pulse">Terrorist</h1>
+<h1 *ngIf="!terrorsistActive">Soldier</h1>
+
+    <terrorist (messageEvent)="receiveN($event)" *ngIf="terrorsistActive"></terrorist>
+    <bomber *ngIf="!terrorsistActive" (messageEvent)="bombDiffused($event)"></bomber>
+</div>
